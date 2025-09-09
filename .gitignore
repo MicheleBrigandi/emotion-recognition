@@ -27,7 +27,7 @@ Thumbs.db
 
 # Results and outputs
 results/
-data/test_images/preprocessed
+data/test/preprocessed/
 predictions.csv
 
 # IDEs
