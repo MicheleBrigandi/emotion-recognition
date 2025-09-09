@@ -1,0 +1,38 @@
+# Path to the trained CNN model
+model_path: "models/weights/fine_tuned_cnn_model.keras"
+
+# Path to raw images and detections
+raw_images_folder: "data/test/raw/images/"
+detections_csv: "data/test/raw/detections.csv"
+
+# Path to preprocessed images and labels
+preprocessed_images_folder: "data/test/preprocessed/images/"
+preprocessed_csv: "data/test/preprocessed/preprocessed.csv"
+
+# Output folder for annotated images and metrics
+result_images_folder: "results/annotated/"
+result_metrics_folder: "results/metrics/"
+predictions_csv: "results/predictions.csv"
+
+# Preprocessing parameters
+normalize_input: true
+image_size: [224, 224]
+
+# Emotion labels mapping
+emotion_labels:
+  0: "Angry"
+  1: "Disgust"
+  2: "Fear"
+  3: "Happy"
+  4: "Sad"
+  5: "Surprise"
+  6: "Neutral"
+
+# Logger configuration
+logger:
+  level: "INFO"
+  file_path: "logs/pipeline.log"
+  max_file_size_mb: 5
+  backup_count: 3
+  enable_console: true
+  enable_file: true

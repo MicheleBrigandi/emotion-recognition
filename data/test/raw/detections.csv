@@ -1,0 +1,118 @@
+image,label,x,y,w,h
+neutral (12) new.jpg,6,1694,1310,875,875
+happy (6).jpg,3,916,304,299,299
+angry (1).jpg,0,18,359,158,158
+neutral (3).jpg,6,933,191,221,221
+angry (10) new.jpg,0,256,111,108,108
+angry (11) new.jpg,0,350,46,125,125
+fear (2).jpg,2,63,511,225,225
+fear (2).jpg,2,769,54,255,255
+fear (2).jpg,2,497,261,262,262
+fear (2).jpg,2,958,468,246,246
+happy (4).jpg,3,589,282,50,50
+happy (4).jpg,3,501,247,54,54
+happy (4).jpg,3,853,353,49,49
+disgust (14) new.jpg,1,155,32,104,104
+angry (3).jpg,0,277,293,477,477
+neutral (14) new.jpg,6,733,1195,2014,2014
+angry (12) new.jpg,0,329,94,94,94
+angry (13) new.jpg,0,235,75,142,142
+happy (5).jpg,3,1033,268,159,159
+disgust (11) new.jpg,1,248,86,104,104
+angry (2).jpg,0,583,184,201,201
+fear (5).jpg,2,1371,1350,1581,1581
+sad (12) new.jpg,4,1414,1238,552,552
+angry (4).jpg,0,475,168,109,109
+happy (1).jpg,3,1408,319,251,251
+happy (1).jpg,3,917,200,227,227
+happy (1).jpg,3,236,192,236,236
+happy (1).jpg,3,532,332,316,316
+sad (9) new.jpg,4,729,1202,2348,2348
+fear (13) new.jpg,2,210,88,149,149
+disgust (9) new.jpg,1,302,43,74,74
+angry (7) new.jpg,0,3043,1025,1237,1237
+fear (9) new.jpg,2,636,323,88,88
+fear (9) new.jpg,2,178,260,109,109
+angry (8) new.jpg,0,2106,912,1085,1085
+fear (8) new.jpg,2,304,141,110,110
+disgust (7) new.jpg,1,260,47,103,103
+angry (9) new.jpg,0,1606,359,741,741
+disgust (10) new.jpg,1,266,56,142,142
+disgust (12) new.jpg,1,255,80,133,133
+disgust (13) new.jpg,1,285,127,80,80
+disgust (2).jpg,1,585,118,498,498
+disgust (15) new.jpg,1,359,84,87,87
+disgust (4).jpg,1,2524,691,1172,1172
+neutral (11) new.jpg,6,2396,765,679,679
+neutral (11) new.jpg,6,718,535,687,687
+disgust (5).jpg,1,1426,1624,653,653
+fear (7) new.jpg,2,270,35,75,75
+fear (12) new.jpg,2,133,93,148,148
+disgust (8) new.jpg,1,253,62,110,110
+happy (7).jpg,3,1407,478,227,227
+happy (7).jpg,3,696,241,179,179
+fear (10) new.jpg,2,328,73,107,107
+fear (11) new.jpg,2,232,116,76,76
+fear (14) new.jpg,2,349,132,93,93
+happy (10) new.jpg,3,210,303,57,57
+happy (10) new.jpg,3,418,223,75,75
+happy (11) new.jpg,3,517,146,149,149
+happy (11) new.jpg,3,1056,63,116,116
+happy (12) new.jpg,3,207,361,73,73
+happy (12) new.jpg,3,1057,375,65,65
+happy (12) new.jpg,3,658,377,82,82
+happy (12) new.jpg,3,163,314,59,59
+happy (12) new.jpg,3,378,342,69,69
+happy (12) new.jpg,3,982,363,53,53
+happy (13) new.jpg,3,155,51,481,480
+happy (14) new.jpg,3,368,95,351,351
+happy (15) new.jpg,3,591,193,120,120
+happy (15) new.jpg,3,437,359,147,147
+happy (15) new.jpg,3,340,273,106,106
+happy (15) new.jpg,3,293,406,172,171
+happy (16) new.jpg,3,162,238,223,223
+happy (16) new.jpg,3,503,263,245,245
+happy (8) new.jpg,3,199,119,112,112
+happy (8) new.jpg,3,566,94,125,125
+happy (9) new.jpg,3,504,221,140,140
+happy (9) new.jpg,3,360,198,144,144
+neutral (10) new.jpg,6,2334,909,887,887
+neutral (1).jpg,6,779,253,396,396
+neutral (13) new.jpg,6,3257,227,844,844
+neutral (15) new.jpg,6,2532,3911,2679,2679
+neutral (2).jpg,6,540,212,190,190
+neutral (5).jpg,6,79,1295,301,301
+neutral (5).jpg,6,823,1382,284,284
+neutral (5).jpg,6,1572,412,329,329
+neutral (5).jpg,6,1849,1206,574,574
+neutral (6).jpg,6,1373,551,317,318
+neutral (6).jpg,6,949,595,280,280
+neutral (7).jpg,6,1771,1079,1317,1317
+neutral (8) new.jpg,6,2410,1160,778,778
+neutral (9) new.jpg,6,926,185,261,261
+sad (1).jpg,4,823,214,409,408
+sad (10) new.jpg,4,2491,722,1313,1313
+surprise(7).jpg,5,3677,744,1815,1815
+sad (11) new.jpg,4,955,1519,2233,2233
+sad (2).jpg,4,1157,172,526,526
+sad (3).jpg,4,247,102,247,247
+sad (5).jpg,4,422,181,557,557
+sad (6).jpg,4,235,76,419,419
+sad (7).jpg,4,800,135,175,175
+sad (8) new.jpg,4,1343,2876,1699,1699
+surprise (10) new.jpg,5,3267,1382,3378,3378
+surprise (11) new.jpg,5,513,1135,2308,2308
+surprise (12) new.jpg,5,1027,1932,1568,1567
+surprise (13) new.jpg,5,2240,1628,223,223
+surprise (13) new.jpg,5,3728,1642,281,281
+surprise (13) new.jpg,5,2702,1478,307,307
+surprise (14) new.jpg,5,3877,66,3720,3720
+surprise (2).jpg,5,500,385,150,150
+surprise (2).jpg,5,220,395,167,167
+surprise (3).jpg,5,337,108,328,328
+surprise (4).jpg,3,913,248,170,170
+surprise (4).jpg,5,623,27,250,250
+surprise (5).jpg,5,256,170,289,289
+surprise (6).jpg,5,438,236,415,415
+surprise (8) new.jpg,5,1617,353,1610,1610
+surprise (9) new.jpg,5,1387,468,864,864
