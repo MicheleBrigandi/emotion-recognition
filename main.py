@@ -1,6 +1,7 @@
 import cv2
 import numpy as np
 import pandas as pd
+from huggingface_hub import hf_hub_download
 from keras.models import load_model
 from pathlib import Path
 
@@ -16,7 +17,6 @@ logger = get_logger(__name__)
 
 def main():
     logger.info("Checking if preprocessing is needed...")
-
     preprocessed_folder = Path(config.preprocessed_images_folder)
     preprocessed_csv_path = Path(config.preprocessed_csv)
 
@@ -29,6 +29,20 @@ def main():
             preprocessed_csv_path=config.preprocessed_csv,
             target_size=config.image_size[0]
         )
+
+    logger.info("Checking if model is present...")
+    model_path = Path(config.model_path)
+
+    if not model_path.exists():
+        logger.info("Model not found. Downloading...")
+        model_file = hf_hub_download(
+            repo_id="michelebrigandi/emotion-recognition-cnn-keras",
+            filename="emotion-recognition-cnn.keras"
+        )
+
+        model_path.parent.mkdir(parents=True, exist_ok=True)
+        model_path.write_bytes(Path(model_file).read_bytes())
+        logger.info(f"Model ready at: {model_path}")
 
     logger.info("Loading model...")
     model = load_model(config.model_path, custom_objects={"SEBlock": SEBlock, "CAMBlock": CAMBlock})

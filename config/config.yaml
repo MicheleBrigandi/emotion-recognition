@@ -1,5 +1,5 @@
 # Path to the trained CNN model
-model_path: "models/weights/fine_tuned_cnn_model.keras"
+model_path: "models/weights/emotion-recognition-cnn.keras"
 
 # Path to raw images and detections
 raw_images_folder: "data/test/raw/images/"
