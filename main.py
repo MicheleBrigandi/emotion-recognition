@@ -60,15 +60,15 @@ def main():
     preds = model.predict(images, verbose=0)
     y_pred = np.argmax(preds, axis=1)
 
+    # Save evaluation metrics
+    class_names = [config.emotion_labels[i] for i in sorted(config.emotion_labels)]
+    save_evaluation_metrics(y_true, y_pred, config.result_metrics_folder, class_names)
+
     # Save predictions CSV
     df = pd.read_csv(preprocessed_csv_path)
     df["prediction"] = y_pred
     df.to_csv(config.predictions_csv, index=False)
     logger.info(f"Predictions saved in '{config.predictions_csv}'.")
-
-    # Save evaluation metrics
-    class_names = [config.emotion_labels[i] for i in sorted(config.emotion_labels)]
-    save_evaluation_metrics(y_true, y_pred, config.result_metrics_folder, class_names)
 
     # Draw predictions on images
     draw_predictions_on_faces(
