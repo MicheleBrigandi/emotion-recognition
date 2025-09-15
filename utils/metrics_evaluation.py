@@ -61,7 +61,7 @@ def save_evaluation_metrics(true_labels: np.ndarray,
         correct_faces = int(np.sum(true_labels == pred_labels))
         end_to_end_rate = correct_faces / total_faces if total_faces > 0 else 0.0
 
-        logger.info(f"Detected faces percentage: {(len(true_labels) / total_faces):.4f}\n"
+        logger.info(f"Detected faces percentage: {(len(true_labels) / total_faces):.4f} "
                     f"End-to-end success rate: {end_to_end_rate:.4f} "
                     f"({correct_faces}/{total_faces} faces)")
 
