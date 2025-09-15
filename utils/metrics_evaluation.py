@@ -55,13 +55,14 @@ def save_evaluation_metrics(true_labels: np.ndarray,
     logger.info("\n" + str(report))
     (output / "classification_report.txt").write_text(str(report))
 
-    # End-to-end detection+classification metric
+    # End-to-end detection + classification metric
     if ground_truth_csv is not None and Path(ground_truth_csv).exists():
         total_faces = len(pd.read_csv(ground_truth_csv))
         correct_faces = int(np.sum(true_labels == pred_labels))
         end_to_end_rate = correct_faces / total_faces if total_faces > 0 else 0.0
 
-        logger.info(f"End-to-end success rate: {end_to_end_rate:.4f} "
+        logger.info(f"Detected faces percentage: {(len(true_labels) / total_faces):.4f} "
+                    f"End-to-end success rate: {end_to_end_rate:.4f} "
                     f"({correct_faces}/{total_faces} faces)")
 
         # Save in the same report file
