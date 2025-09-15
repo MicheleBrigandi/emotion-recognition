@@ -18,6 +18,8 @@ config = Config()
 logger = get_logger(__name__)
 
 def main():
+    logger.info("Pipeline started.")
+    
     logger.info("Checking if preprocessing is needed...")
     preprocessed_folder = Path(config.preprocessed_images_folder)
     preprocessed_csv_path = Path(config.preprocessed_csv)
