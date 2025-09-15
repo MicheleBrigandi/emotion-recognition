@@ -1,6 +1,9 @@
 # Path to the trained CNN model
 model_path: "models/weights/emotion-recognition-cnn.keras"
 
+# Path to ground truth
+ground_truth_csv: "data/test/ground_truth.csv"
+
 # Path to raw images and detections
 raw_images_folder: "data/test/raw/images/"
 detections_csv: "data/test/raw/detections.csv"

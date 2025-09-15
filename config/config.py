@@ -12,6 +12,7 @@ class Config:
 
     Attributes:
         model_path (str): Path to the trained model file.
+        ground_truth_csv (str): Path to the CSV file for ground truth.
         raw_images_folder (str): Directory containing raw input images.
         detections_csv (str): Path to the CSV file for detections.
         preprocessed_images_folder (str): Directory for preprocessed images.
@@ -48,6 +49,7 @@ class Config:
 
         # Paths
         self.model_path: str = cfg["model_path"]
+        self.ground_truth_csv: str = cfg["ground_truth_csv"]
         self.raw_images_folder: str = cfg["raw_images_folder"]
         self.detections_csv: str = cfg["detections_csv"]
         self.preprocessed_images_folder: str = cfg["preprocessed_images_folder"]

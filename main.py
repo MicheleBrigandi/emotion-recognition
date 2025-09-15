@@ -66,7 +66,7 @@ def main():
 
     # Save evaluation metrics
     class_names = [config.emotion_labels[i] for i in sorted(config.emotion_labels)]
-    save_evaluation_metrics(y_true, y_pred, config.result_metrics_folder, class_names)
+    save_evaluation_metrics(y_true, y_pred, config.ground_truth_csv, config.result_metrics_folder, class_names)
 
     # Save predictions CSV
     df = pd.read_csv(preprocessed_csv_path)
