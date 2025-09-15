@@ -30,6 +30,9 @@ results/
 data/test/preprocessed/
 predictions.csv
 
+# Models
+*.keras
+
 # IDEs
 .vscode/
 .idea/
