@@ -1,17 +1,5 @@
-# ---- Silence TensorFlow & Keras logs ----
-import os
-import logging
-
-# Suppress TensorFlow C++ backend warnings/info
-os.environ["TF_CPP_MIN_LOG_LEVEL"] = "2"  
-# 0 = all logs, 1 = filter out INFO, 2 = filter out INFO+WARNING, 3 = only ERRORs
-
-import tensorflow as tf
-tf.get_logger().setLevel(logging.ERROR)
-
-# Optional: silence absl logging (used internally by TensorFlow)
-logging.getLogger("absl").setLevel(logging.ERROR)
-# -----------------------------------------
+import warnings
+warnings.filterwarnings("ignore", category=UserWarning)
 
 import cv2
 import numpy as np
