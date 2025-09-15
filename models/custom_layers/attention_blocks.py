@@ -1,3 +1,5 @@
+# Francesco Campigotto - 2156375
+
 import tensorflow as tf
 from keras import layers
 

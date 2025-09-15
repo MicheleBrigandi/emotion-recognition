@@ -1,3 +1,5 @@
+# Michele Brigandì - 2156373
+
 import matplotlib.pyplot as plt
 import numpy as np
 from datetime import datetime

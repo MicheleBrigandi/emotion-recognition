@@ -1,5 +1,4 @@
-import warnings
-warnings.filterwarnings("ignore", category=UserWarning)
+# Michele Brigandì - 2156373
 
 import cv2
 import numpy as np

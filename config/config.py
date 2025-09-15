@@ -1,3 +1,5 @@
+# Michele Brigandì - 2156373
+
 import yaml
 
 class Config:

@@ -1,3 +1,5 @@
+# Michele Brigandì - 2156373
+
 import logging
 import sys
 from config.config import Config
